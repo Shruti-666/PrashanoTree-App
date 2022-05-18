@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imagebook"
+        android:layout_width="89dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/books" />
+
+    <ImageView
+        android:id="@+id/imagecomp"
+        android:layout_width="89dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/imagebook"
+        app:srcCompat="@drawable/comp" />
+
+    <ImageView
+        android:layout_width="89dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="17dp"
+        android:layout_toRightOf="@+id/imagecomp"
+        app:srcCompat="@drawable/questionmark" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="89dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="120dp"
+        android:layout_toRightOf="@id/imagecomp"
+        app:srcCompat="@drawable/bag" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/imagebook"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/dsaTopic1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#C295E9"
+                android:text="Array and Array Operations"
+                android:textAllCaps="false"
+                />
+
+            <Button
+                android:id="@+id/dsaTopic2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#9AE48C"
+                android:text="Queue Operations"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/dsaTopic3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Stack Operation"
+                android:textAllCaps="false"
+                android:background="#C295E9"/>
+
+            <Button
+                android:id="@+id/dsaTopic4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Singly Linked List"
+                android:textAllCaps="false"
+                android:background="#9AE48C"/>
+
+            <Button
+                android:id="@+id/dsaTopic5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Doubly Linked List"
+                android:textAllCaps="false"
+                android:background="#C295E9"/>
+
+            <Button
+                android:id="@+id/dsaTopic6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Infix And Postfix"
+                android:textAllCaps="false"
+                android:background="#9AE48C"/>
+
+            <Button
+                android:id="@+id/dsaTopic7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Dynamic Array"
+                android:textAllCaps="false"
+                android:background="#C295E9"/>
+
+            <Button
+                android:id="@+id/dsaTopic8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Binary Array"
+                android:textAllCaps="false"
+                android:background="#9AE48C"/>
+
+            <Button
+                android:id="@+id/dsaTopic9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Heap"
+                android:textAllCaps="false"
+                android:background="#C295E9"/>
+
+            <Button
+                android:id="@+id/dsaTopic10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Graph"
+                android:textAllCaps="false"
+                android:background="#9AE48C"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

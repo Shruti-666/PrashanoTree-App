@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".java">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="89dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/bag" />
+
+    <ImageView
+        android:layout_width="89dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="225dp"
+        android:layout_toRightOf="@id/imageView"
+        app:srcCompat="@drawable/comp" />
+
+    <ImageView
+        android:layout_width="89dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="13dp"
+        android:layout_toRightOf="@id/imageView"
+        app:srcCompat="@drawable/books" />
+
+    <ImageView
+        android:layout_width="89dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="119dp"
+        android:layout_toRightOf="@id/imageView"
+        app:srcCompat="@drawable/questionmark" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/imageView"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/javaTopic1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#C295E9"
+                android:text="Integer And Floating Data Type"
+                android:textAllCaps="false"
+                />
+
+            <Button
+                android:id="@+id/javaTopic2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#9AE48C"
+                android:text="Arrays"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/javaTopic3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Arithmetic Operators"
+                android:textAllCaps="false"
+                android:background="#C295E9"/>
+
+            <Button
+                android:id="@+id/javaTopic4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Bitwise Operators"
+                android:textAllCaps="false"
+                android:background="#9AE48C"/>
+
+            <Button
+                android:id="@+id/javaTopic5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="OOP's Concept in java"
+                android:textAllCaps="false"
+                android:background="#C295E9"/>
+
+            <Button
+                android:id="@+id/javaTopic6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Method"
+                android:textAllCaps="false"
+                android:background="#9AE48C"/>
+
+            <Button
+                android:id="@+id/javaTopic7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Constructor"
+                android:textAllCaps="false"
+                android:background="#C295E9"/>
+
+            <Button
+                android:id="@+id/javaTopic8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Method Overriding"
+                android:textAllCaps="false"
+                android:background="#9AE48C"/>
+
+            <Button
+                android:id="@+id/javaTopic9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Object Class"
+                android:textAllCaps="false"
+                android:background="#C295E9"/>
+
+            <Button
+                android:id="@+id/javaTopic10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Abstract Class And Super"
+                android:textAllCaps="false"
+                android:background="#9AE48C"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

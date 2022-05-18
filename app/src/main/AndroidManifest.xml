@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.prashanotree">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PrashanoTree">
+        <activity
+            android:name=".css"
+            android:exported="false" />
+        <activity
+            android:name=".sql"
+            android:exported="false" />
+        <activity
+            android:name=".python1"
+            android:exported="false" />
+        <activity
+            android:name=".html"
+            android:exported="false" />
+        <activity
+            android:name=".c_language"
+            android:exported="false" />
+        <activity
+            android:name=".software_maintenance"
+            android:exported="false" />
+        <activity
+            android:name=".projct_management"
+            android:exported="false" />
+        <activity
+            android:name=".software_design"
+            android:exported="false" />
+        <activity
+            android:name=".dependability_security"
+            android:exported="false" />
+        <activity
+            android:name=".evolution"
+            android:exported="false" />
+        <activity
+            android:name=".modelling"
+            android:exported="false" />
+        <activity
+            android:name=".software_engineering"
+            android:exported="false" />
+        <activity
+            android:name=".wireless"
+            android:exported="false" />
+        <activity
+            android:name=".congestion"
+            android:exported="false" />
+        <activity
+            android:name=".http_ftp"
+            android:exported="false" />
+        <activity
+            android:name=".delay_loss"
+            android:exported="false" />
+        <activity
+            android:name=".network_layer"
+            android:exported="false" />
+        <activity
+            android:name=".physical_layer"
+            android:exported="false" />
+        <activity
+            android:name=".access_network"
+            android:exported="false" />
+        <activity
+            android:name=".abstract_class_and_super"
+            android:exported="false" />
+        <activity
+            android:name=".object"
+            android:exported="false" />
+        <activity
+            android:name=".method_overriding"
+            android:exported="false" />
+        <activity
+            android:name=".constructor"
+            android:exported="false" />
+        <activity
+            android:name=".method"
+            android:exported="false" />
+        <activity
+            android:name=".oops"
+            android:exported="false" />
+        <activity
+            android:name=".bitwise_operator"
+            android:exported="false" />
+        <activity
+            android:name=".arithmetic_operation"
+            android:exported="false" />
+        <activity
+            android:name=".arrays"
+            android:exported="false" />
+        <activity
+            android:name=".computer_networks"
+            android:exported="false" />
+        <activity
+            android:name=".graph"
+            android:exported="false" />
+        <activity
+            android:name=".heap"
+            android:exported="false" />
+        <activity
+            android:name=".binaryarray"
+            android:exported="false" />
+        <activity
+            android:name=".dynamic_array"
+            android:exported="false" />
+        <activity
+            android:name=".infix_and_postfix"
+            android:exported="false" />
+        <activity
+            android:name=".double_linked_list"
+            android:exported="false" />
+        <activity
+            android:name=".singly_linked_list"
+            android:exported="false" />
+        <activity
+            android:name=".stack_operation"
+            android:exported="false" />
+        <activity
+            android:name=".queue"
+            android:exported="false" />
+        <activity
+            android:name=".integer_and_floating_data_type"
+            android:exported="false" />
+        <activity
+            android:name=".java"
+            android:exported="false" />
+        <activity
+            android:name=".ArrayandArrayOperation"
+            android:exported="false" />
+        <activity
+            android:name=".Data_Structure_and_Algorithm"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
